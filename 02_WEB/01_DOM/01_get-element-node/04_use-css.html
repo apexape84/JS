@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <h1>04.css 선택자를 이용한 요소 노드 취득</h1>
+    <pre>
+        querySelector()
+
+    </pre>
+    <div class="area">
+        <p>test01</p>
+    </div>
+    <div class="area">
+        <p>test02</p>
+    </div>
+    <script>
+        let $area = document.querySelector('.area');
+        console.log($area);
+        $area = document.querySelectorAll('.area');
+        console.log($area);
+    </script>
+</body>
+</html>

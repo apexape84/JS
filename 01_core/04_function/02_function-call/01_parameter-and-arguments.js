@@ -7,3 +7,5 @@ function hello(name){
 var result = hello('이승현');
 console.log(result);
 
+
+

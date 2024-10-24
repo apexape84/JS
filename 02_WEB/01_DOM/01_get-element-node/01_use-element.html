@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .area{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>id를 이용한 요소 노드 취득하기</h1>
+    <pre>
+        Document 객체가 가진 getElementById
+    </pre>
+<!-- 아이디 # 클래스 . 텍스트{}-->
+    <div id="area1" class="area">
+        div영역
+    </div>
+    <div id="area1" class="area">
+        div영역
+    </div>
+    <script>
+        const $element = document.getElementById('area1');
+        console.log($element);
+        $element.style.backgroundColor = 'red';
+        const $noElement = document.getElementById('area3');
+        console.log($noElement);
+    </script>
+</body>
+</html>

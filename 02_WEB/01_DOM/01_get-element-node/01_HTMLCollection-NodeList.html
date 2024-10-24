@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .white{
+            color: white;
+        }
+        .black{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="white">1번째글</li>
+        <li class="white">2번째글</li>
+        <li class="white">3번째글</li>
+    </ul>
+    <ul>
+        <li class="white">1번째글</li>
+        <li class="white">2번째글</li>
+        <li class="white">3번째글</li>
+    </ul>
+    <script>
+        const $whiteList=document.getElementsByClassName('white');
+        console.log($whiteList);
+        for(; 0 != $whiteList.length;){
+            $whiteList[0].className = 'black';
+        }
+    </script>
+</body>
+</html>
