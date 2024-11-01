@@ -65,4 +65,4 @@ console.log('8=======================================');
 // ohgiraffers 배열을 활용해서 조평훈 이라는 학생의
 // 몸무게 정보를 추가해보자. weight -> 80 으로 추가
 ohgiraffers.forEach((ohgi)=>{if(ohgi.name=='조평훈')ohgi.weight=80;console.log(ohgi);});
-console.log('========================================');
+// console.log('========================================');
